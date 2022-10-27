@@ -1,7 +1,7 @@
 name: Deploy Pipeline For workato Higher Environments
 on:
   release:
-    types: [published,updated]
+    types: [published,updated,update]
 
 jobs:
   deploy-prod:
